@@ -4,8 +4,6 @@ date: 2022-01-19
 draft: false
 description: "Discover what's new in Blowfish version 2.0."
 tags: ["new", "docs"]
-series: ["Documentation"]
-series_order: 1
 ---
 
 {{< lead >}}
@@ -15,6 +13,8 @@ Blowfish is packed with tons of features.
 The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of <a target="_blank" href="https://github.com/nunocoracao/congo">Congo</a> and expands its initial vision.
 
 ## Tailwind CSS 3.0
+
+# ddd 
 
 Tailwind CSS is at the heart of Blowfish and this release contains the very latest [Tailwind CSS version 3](https://tailwindcss.com/blog/tailwindcss-v3). It brings with it performance optimisations and support for some great new CSS features.
 

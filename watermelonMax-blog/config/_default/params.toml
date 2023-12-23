@@ -15,10 +15,12 @@ enableCodeCopy = true
 mainSections = ["docs"]
 # robots = ""
 
-disableImageOptimization = false
+disableImageOptimization = true
 
-defaultBackgroundImage = "/img/ocean.jpg"
-defaultFeaturedImage = "/img/ocean.jpg"
+#defaultBackgroundImage = "/img/wutiaowu.jpg"
+defaultBackgroundImage = "img/fulilian.jpg"
+ 
+defaultFeaturedImage = "/img/fulilian.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -46,7 +48,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-  showDate = false
+  showDate = true
   showViews = true
   showLikes = true
   showDateUpdated = false
@@ -56,7 +58,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
+  showEdit = false
   editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
   editAppendPath = true
   seriesOpened = false
@@ -94,7 +96,7 @@ smartTOCHideUnfocusedChildren = false
 [taxonomy]
   showTermCount = true
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = true
   showLikes = true
